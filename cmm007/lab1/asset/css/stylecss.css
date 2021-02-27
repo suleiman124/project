@@ -1,0 +1,57 @@
+@import "templatecolours.css";
+
+body{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color: bisque;
+}
+header{
+    background-color: wheat;
+}
+main{
+    background-color: blue;
+}
+section{
+    background-color: cadetblue;
+}
+aside{
+    background-color: yellow;
+}
+article{
+    background-color: mediumpurple;
+}
+nav>ul>li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav>ul>li {
+        float: left;
+}
+nav>ul>li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+li a:hover{
+    color: #3e5667;
+}
+#rgu2.png{
+    width: 300px;
+}
+#compic.png{
+    height: 209px;
+}
+#compic.jpg{
+    width: 200px;
+    float: left;
+    padding-right: 10px;
+}
+
+
